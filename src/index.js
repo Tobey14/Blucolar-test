@@ -7,7 +7,10 @@ import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 ReactDOM.render(
   
-  <App />
+  <Router basename={process.env.PUBLIC_URL}>
+     <App />
+   </Router>
+
 ,
   document.getElementById('root')
 );
