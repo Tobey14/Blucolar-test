@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import Home from './Home';
-import Header from './Header';
+import Home from './views/Home';
+import Header from './views/Header';
 import ReactPaginate from "react-paginate";
 
 
