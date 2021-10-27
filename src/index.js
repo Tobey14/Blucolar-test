@@ -6,13 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 ReactDOM.render(
-  <Router basename="/Blucolar-test">
-    <Switch>
-      <Route path="/github">
+
         <App />
-      </Route>
-    </Switch>
-  </Router>
+
   
      
    
